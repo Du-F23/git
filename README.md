@@ -19,12 +19,11 @@ Si deceamos añadir nuestro editor de codigo por defecto que es de nuestro agrad
 
 Para verificar que nuestra configuración sea la correcta lo realizaremos mediante el siguiente comando 
 >`git config --list`
-![Ejemplo de git help](config.png)
+ ![Ejemplo de git help](config_list.png)
  o si bien deseamos un parametro en especifico usamos
  >`git config "Parametro"` __*cabe resaltar que no se deberian colocar las comillas*__
- ![Ejemplo de git help](config_list.png).
 
-#### Ejemplo.
+__*Ejemplo*__
 >`git config user.name`.
 ![Ejemplo de git help](config_parametro.png)
 
@@ -134,3 +133,4 @@ __*Ejemplo*__
 __*Ejemplo*__
 
 `git push -u origin main`
+![Ejemplo de git help](push.png)
