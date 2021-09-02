@@ -53,11 +53,13 @@ __*Para que nuestros documentos sean guardados debemos añadir un comentario con
 
 __*Ejemplo*__
 
-`git commit -m "Añadimos todos los archivos". ![Ejemplo de git help](commit.png)
+>`git commit -m "Añadimos todos los archivos"` ![Ejemplo de git help](commit.png)
 
 Para clonar contenido de algun repositorio dentro de Github y __*derivados primero debemos obtener la URL*__
 >`git clone https://github.com/Du-F23/angular-api.git` ![Ejemplo de git help](clone.png)
 O si queremos que se guarde en un directorio con nombre en especifico `git clone https://github.com/Du-F23/angular-api.git nombre_carpeta`
+
+__*Ejemplo*__
 >`git clone https://github.com/Du-F23/angular-api.git Prueba`.
 ![Ejemplo de git help](clone_carpeta.png).
 
@@ -67,7 +69,7 @@ Para verificar el estado del repositorio
 
 Si no queremos que se añadan carpetas o documentos en especifico a el repositorio
 
->touch .gitignore 
+>`touch .gitignore`
 ![Ejemplo de git help](gitignore.png)
 __*Aqui editaremos el archivo llamado .gitignore y añadiremos las carpetas excluidas por nosotros*__.
 ![Ejemplo de git help](gitignore_ejemplo.png)
@@ -77,21 +79,22 @@ Para eliminar archivos del area de preparación
 
 __*Ejemplo*__
 
-`rm indes.html`.
+>`rm indes.html`.
 
 Para renombrar archivos en git 
 >`mv nombre_actual nombre_nuevo`
 
 __*Ejemplo*__
 
-`mv arrachera.jpg taco_arrachera.jpg`.
+>`mv arrachera.jpg taco_arrachera.jpg`.
 
 Para ver el registro de confirmaciones 
 >`git log`
 ![Ejemplo de git help](log.png)
 
 Para añadir remote de algun repositorio.
-`git remote add origin URL`.
+
+>`git remote add origin URL`.
 
 __*Ejemplo*__
 >`git remote add origin https://github.com/Du-F23/comandos_git.git`
@@ -108,9 +111,11 @@ ______________________________________
 
 __*Ejemplo*__
 
-`git config --global alias.ci commit`
+>`git config --global alias.ci commit`
+
 y para mandar a llamar a nuestro alias seria de la siguiente manera
-`git ci -m "Creamos un alias"`. 
+
+>`git ci -m "Creamos un alias"`. 
 ![Ejemplo de git help](alias.png)
 
 ________________________________________
@@ -124,7 +129,7 @@ podemos crear diferentes ramas pero las mas comunes son __*master y main*__.
 
 __*Ejemplo*__ 
 
-`git branch -M master`
+>`git branch -M master`
 ![Ejemplo de git help](branch.png)
 
 ### Subir rama a repositorio remoto 
@@ -132,5 +137,5 @@ __*Ejemplo*__
 
 __*Ejemplo*__
 
-`git push -u origin main`
+>`git push -u origin main`
 ![Ejemplo de git help](push.png)
